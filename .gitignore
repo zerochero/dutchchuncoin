@@ -1,0 +1,34 @@
+src/*.exe
+src/dutchchuncoin
+src/dutchchuncoind
+src/test_dutchchuncoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.dutchchuncoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+dutchchuncoin-qt
+Dutchchuncoin-Qt.app
+
+# Unit-tests
+Makefile.test
+dutchchuncoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
